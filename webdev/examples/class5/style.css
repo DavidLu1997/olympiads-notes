@@ -1,0 +1,17 @@
+body {
+	background-color: green;
+	background-image: url('image.jpg');
+}
+
+p {
+	color: blue;
+	font-size: 50px;
+}
+
+h1 {
+	color: orange;
+}
+
+h2 {
+	color: red;
+}

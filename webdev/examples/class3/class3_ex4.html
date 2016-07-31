@@ -1,0 +1,52 @@
+<!-- Copyright David Lu 2016 -->
+<!-- Prepared for Web Development at Olympiads School -->
+<!-- See Olympiads.ca for more details -->
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	<title>Class 3 - Forms Example 4</title>
+</head>
+
+<body>
+	<!-- This is a form with a dropdown -->
+	<h1>A Form</h1>
+	<form>
+		<!-- Text inputs -->
+		First Name:<input type="text" name="firstname" placeholder="First name" maxlength="64"> <br>
+		Last Name:<input type="text" name="lastname" placeholder="Last name" maxlength="64"> <br>
+
+		<!-- Select, or drop-down input -->
+		Your favourite type of music:
+		<select name="music">
+			<option value="country" selected>Country</option>
+			<option value="pop">Pop</option>
+			<option value="rock">Rock</option>
+			<option value="rap">Rap</option>
+			<option value="folk">Folk</option>
+			<option value="dubstep">Dubstep</option>
+			<option value="other">Other</option>
+		</select> <br>
+
+		<!-- A checkbox -->
+		Do you own a pet?<input type="checkbox" name="petYes"><br>
+
+		<!-- A colour -->
+		Your favourite colour? <input type="color" name="color"><br>
+
+		<!-- A URL -->
+		Enter your favourite URL: <input type="url" name="url" disabled><br>
+
+		<!-- A date and time -->
+		Enter your birthday: <input type="date" name="birthday"><br>
+
+		<!-- A number -->
+		Your favourite number between 0 and 100: <input type="number" name="number" min="0" max="100"><br>
+
+		<!-- A submit button -->
+		<input type="submit" name="submit" value="Enter">
+	</form>
+</body>
+</html>

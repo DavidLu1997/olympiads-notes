@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.large {
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+/* Replaces <em> and <i> */
+.emphasis {
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.color-purple {
+	color: purple;
+}
+
+.border {
+	border-width: 5px;
+	border-style: solid;
+}

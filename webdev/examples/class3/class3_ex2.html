@@ -1,0 +1,50 @@
+<!-- Copyright David Lu 2016 -->
+<!-- Prepared for Web Development at Olympiads School -->
+<!-- See Olympiads.ca for more details -->
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	<title>Class 3 - Forms Example 2</title>
+</head>
+
+<body>
+	<!-- This is a form with a dropdown -->
+	<h1>A Form with a Dropdown</h1>
+	<form>
+		<!-- Text inputs -->
+		First Name:<input type="text" name="firstname"> <br>
+		Last Name:<input type="text" name="lastname"> <br>
+
+		<!-- Select, or drop-down input -->
+		Your favourite type of music:
+		<select name="music">
+			<option value="country" selected>Country</option>
+			<option value="pop">Pop</option>
+			<option value="rock">Rock</option>
+			<option value="rap">Rap</option>
+			<option value="folk">Folk</option>
+			<option value="dubstep">Dubstep</option>
+			<option value="other">Other</option>
+		</select> <br>
+
+		<!-- Radio inputs -->
+		<!-- All radio inputs must have the same type -->
+		<!-- One radio input can be checked -->
+		Do you own a pet?<input type="checkbox" name="petYes"><br>
+		
+		<h2>What kind of pet do you prefer?</h2>
+		<input type="radio" name="pet" value="dog" checked>Dogs<br>
+		<input type="radio" name="pet" value="cat">Cats<br>
+		<input type="radio" name="pet" value="fish">Fish<br>
+		<input type="radio" name="pet" value="other">Other<br>
+
+		Your favourite colour? <input type="color" name="color"><br>
+
+		<!-- A submit button -->
+		<input type="submit" name="submit" value="Enter">
+	</form>
+</body>
+</html>

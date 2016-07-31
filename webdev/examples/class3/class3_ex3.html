@@ -1,0 +1,56 @@
+<!-- Copyright David Lu 2016 -->
+<!-- Prepared for Web Development at Olympiads School -->
+<!-- See Olympiads.ca for more details -->
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	<title>Class 3 - Forms Example 3</title>
+</head>
+
+<body>
+	<!-- This is a form with a dropdown -->
+	<h1>A Form with a Button and a Text Area!</h1>
+	<form>
+		<!-- Text inputs -->
+		First Name:<input type="text" name="firstname"> <br>
+		Last Name:<input type="text" name="lastname"> <br>
+
+		<!-- Select, or drop-down input -->
+		Your favourite type of music:
+		<select name="music">
+			<option value="country" selected>Country</option>
+			<option value="pop">Pop</option>
+			<option value="rock">Rock</option>
+			<option value="rap">Rap</option>
+			<option value="folk">Folk</option>
+			<option value="dubstep">Dubstep</option>
+			<option value="other">Other</option>
+		</select> <br>
+
+		<!-- A text area -->
+		Write a paragraph on something: <br>
+		<textarea name="something" rows="10" cols="30"></textarea><br>
+
+		<!-- A button -->
+		<button onClick="alert('I like bob')">Click me to see DERP!</button> <br>
+
+		<!-- A datalist -->
+		<h2>What kind of pet do you prefer?</h2>
+		<input list="pets" name="pet"> <br>
+		<datalist id="pets">
+			<option value="Dog">
+			<option value="Cat">
+			<option value="Fish">
+			<option value="Nemo">
+			<option value="Dory">
+			<option value="Other">
+		</datalist>
+
+		<!-- A submit button -->
+		<input type="submit" name="submit" value="Enter">
+	</form>
+</body>
+</html>
