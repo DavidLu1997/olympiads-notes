@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Layout</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+			</div>
+			<div class="col-sm-4">
+			</div>
+			<div class="col-sm-4">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+			</div>
+			<div class="col-sm-8">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+			</div>
+		</div>
+	</div>
+
+	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+		<ul class="dropdown-menu dropdown-menu-right">
+			<li>1</li>
+			<li>2</li>
+			<li class="divider"></li>
+			<li>1</li>
+			<li>2</li>
+			<li class="divider"></li>
+			<li>1</li>
+			<li>2</li>
+		</ul>
+	</div>
+
+	<script>
+		function flashBulb() {
+			// Turn lightbulb on
+			document.getElementById('bulb').src = 'bulbon.gif';
+
+			Thread.sleep(1000);
+
+			// Turn lightbulb off
+			document.getElementById('bulb').src = 'bulboff.gif';
+		}
+	</script>
+</body>
+</html>
