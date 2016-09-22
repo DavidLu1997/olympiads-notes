@@ -4,3 +4,8 @@
 *.pptx
 *.doc
 *.docx
+*.jpg
+*/zipped/*
+*.class
+*.o
+*.exe
